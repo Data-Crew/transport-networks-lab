@@ -1,0 +1,27 @@
+zona: microcentro_tribunales
+ciudad: "Buenos Aires, Argentina"
+poligono_lonlat:
+  - [-58.387, -34.606]
+  - [-58.381, -34.606]
+  - [-58.381, -34.601]
+  - [-58.387, -34.601]
+horario:
+  inicio: "08:00"
+  fin: "18:00"
+  dias_semana: [0, 1, 2, 3, 4]   # lunes a viernes
+bbox_descarga:            # west, south, east, north
+  - -58.388
+  - -34.607
+  - -58.380
+  - -34.600
+start_point:
+  lat: -34.6035
+  lon: -58.3838
+algoritmo: CPP             # solve_cpp
+route_type: full
+salidas:
+  excel: output/caba_routes.xlsx
+  png: output/caba_route.png
+  html: output/caba_route.html
+archivo_destino: examples/caba_fiscalizacion.py
+entorno_ejecucion: colab
